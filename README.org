@@ -1,8 +1,8 @@
 * Remember Names & Faces
 
-Project 10 - Days 42-44 - [[https://www.hackingwithswift.com/100]]
+Project 12a - Day 49 - [[https://www.hackingwithswift.com/100]]
 
-*Import photos of people (from the photo library or capture with the camera) & put a name to the face to help you learn it.*
+*Added Persistance to Project 10 using UserDefaults and Codable (JSON). Remember Names is an app to import photos of people (from the photo library or capture with the camera) & put a name to the face to help you learn it.*
 
 Main Topics: Collection Views & UIImagePickerController
 
@@ -52,3 +52,5 @@ guard let image = info[.editedImage] as? UIImage else { return }
  2. Try using picker.sourceType = .camera when creating your image picker, which will tell it to create a new image by taking a photo. This is only available on devices (not on the simulator) so you might want to check the return value of UIImagePickerController.isSourceTypeAvailable() before trying to use it!
 
 [[day44.png]]
+** Day 49 - Codable
+Added data persistance using Codable and UserDefau;ts
